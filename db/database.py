@@ -54,7 +54,7 @@ class Database:
 
     def load_up_workers(self) -> None:
         con,cur = self._connect_database()
-
+        #args kwargs
         workers = Worker.generate(10)
         worker_data = [(worker.workcode,worker.name,worker.jobtitle,worker.male,worker.phonenumber) for worker in workers]
         try:
@@ -67,7 +67,7 @@ class Database:
 
     def load_up_items(self) -> None:
         con, cur = self._connect_database()
-
+        #args kwargs
         items = Item.generate(2)
         item_data = [(item.itemid, item.itemname) for item in items]
         try:
@@ -80,7 +80,7 @@ class Database:
 
     def load_up_storages(self) -> None:
         con, cur = self._connect_database()
-
+         #args kwargs
         storages = Storage.generate(3,"en_US")
         storage_data = [(storage.id,storage.itemid,storage.stock,storage.price) for storage in storages]
         try:
