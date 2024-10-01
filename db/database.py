@@ -52,6 +52,9 @@ class Database:
         self._close_database(con,cur)
 
 
+
+    #make a generate all func
+    
     def load_up_workers(self) -> None:
         con,cur = self._connect_database()
         #args kwargs
