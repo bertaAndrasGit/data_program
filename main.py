@@ -14,4 +14,4 @@ def main() -> None:
     db.load_up("storages",Storage,["id","itemid","stock","price"],5)
 
 if __name__ == '__main__':
-    main()a
+    main()
