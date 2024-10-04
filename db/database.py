@@ -52,10 +52,10 @@ class Database:
         self._close_database(con,cur)
 
 
-    def load_up_workers(self) -> None:
+    def load_up_workers(self,*args,**kwargs) -> None:
         con,cur = self._connect_database()
 
-        workers = Worker.generate(10)
+        workers = Worker.generate(*args,**kwargs)
         worker_data = [(worker.workcode,worker.name,worker.jobtitle,worker.male,worker.phonenumber) for worker in workers]
         try:
             cur.executemany("INSERT INTO workers VALUES (?, ?, ?, ?, ?)", worker_data)
@@ -65,10 +65,10 @@ class Database:
         self._close_database(con,cur)
 
 
-    def load_up_items(self) -> None:
+    def load_up_items(self,*args,**kwargs) -> None:
         con, cur = self._connect_database()
 
-        items = Item.generate(2)
+        items = Item.generate(*args,**kwargs)
         item_data = [(item.itemid, item.itemname) for item in items]
         try:
             cur.executemany("INSERT INTO items VALUES (?, ?)", item_data)
@@ -78,10 +78,10 @@ class Database:
         self._close_database(con, cur)
 
 
-    def load_up_storages(self) -> None:
+    def load_up_storages(self,*args,**kwargs) -> None:
         con, cur = self._connect_database()
 
-        storages = Storage.generate(3,"en_US")
+        storages = Storage.generate(*args,**kwargs)
         storage_data = [(storage.id,storage.itemid,storage.stock,storage.price) for storage in storages]
         try:
             cur.executemany("INSERT INTO storages VALUES (?, ?, ?, ?)",storage_data)
@@ -89,3 +89,21 @@ class Database:
             pass
 
         self._close_database(con, cur)
+
+
+    def load_up(self,table_name,method,columns:list,*args,**kwargs):
+        con,cur = self._connect_database()
+
+        generate = method.generate(*args,**kwargs)
+        items = [tuple(getattr(item,column) for column in columns) for item in generate]
+        values = ", ".join("?" * len(columns))
+        sql = f"INSERT INTO {table_name} VALUES ({values})"
+
+
+        try:
+            cur.executemany(sql,items)
+        except sqlite3.IntegrityError:
+            pass
+
+        self._close_database(con,cur)
+
