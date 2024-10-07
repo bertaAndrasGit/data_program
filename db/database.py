@@ -1,8 +1,5 @@
 import sqlite3
 
-from models.storage import Storage
-from models.worker import Worker
-from models.item import Item
 class Database:
 
     def __init__(self, storagepath):
@@ -10,7 +7,7 @@ class Database:
 
     @staticmethod
     def _connect_database():
-        storage = r'C:\Users\Andras\PycharmProjects\beadando\db\storage.db'  # N:M
+        storage = r'..\data_program\db\storage.db'  # N:M
         con = sqlite3.connect(storage)  # ':memory:'
         cur = con.cursor()
 
@@ -50,45 +47,6 @@ class Database:
                                                     "FOREIGN KEY (storageid) REFERENCES storages(id) )")
 
         self._close_database(con,cur)
-
-
-    def load_up_workers(self,*args,**kwargs) -> None:
-        con,cur = self._connect_database()
-
-        workers = Worker.generate(*args,**kwargs)
-        worker_data = [(worker.workcode,worker.name,worker.jobtitle,worker.male,worker.phonenumber) for worker in workers]
-        try:
-            cur.executemany("INSERT INTO workers VALUES (?, ?, ?, ?, ?)", worker_data)
-        except sqlite3.IntegrityError:
-            pass
-
-        self._close_database(con,cur)
-
-
-    def load_up_items(self,*args,**kwargs) -> None:
-        con, cur = self._connect_database()
-
-        items = Item.generate(*args,**kwargs)
-        item_data = [(item.itemid, item.itemname) for item in items]
-        try:
-            cur.executemany("INSERT INTO items VALUES (?, ?)", item_data)
-        except sqlite3.IntegrityError:
-            pass
-
-        self._close_database(con, cur)
-
-
-    def load_up_storages(self,*args,**kwargs) -> None:
-        con, cur = self._connect_database()
-
-        storages = Storage.generate(*args,**kwargs)
-        storage_data = [(storage.id,storage.itemid,storage.stock,storage.price) for storage in storages]
-        try:
-            cur.executemany("INSERT INTO storages VALUES (?, ?, ?, ?)",storage_data)
-        except sqlite3.IntegrityError:
-            pass
-
-        self._close_database(con, cur)
 
 
     def load_up(self,table_name,method,columns:list,*args,**kwargs):

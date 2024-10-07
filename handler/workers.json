@@ -1,0 +1,492 @@
+[
+    {
+        "workcode": 52937,
+        "name": "Adam Cameron",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "001-600-665-8916x211"
+    },
+    {
+        "workcode": 96599,
+        "name": "Mary Campos",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "(527)719-9277x01398"
+    },
+    {
+        "workcode": 11870,
+        "name": "Casey Miller",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "+1-992-375-0936x8397"
+    },
+    {
+        "workcode": 52294,
+        "name": "Sophia Hamilton",
+        "jobtitle": "Sales Manager",
+        "male": 0,
+        "phonenumber": "722-689-5303x990"
+    },
+    {
+        "workcode": 91018,
+        "name": "Krista Rhodes",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "+1-840-464-1837"
+    },
+    {
+        "workcode": 72858,
+        "name": "April Jones",
+        "jobtitle": "Sales Manager",
+        "male": 0,
+        "phonenumber": "(487)927-9549"
+    },
+    {
+        "workcode": 42763,
+        "name": "Eric Clark",
+        "jobtitle": "Team Leader",
+        "male": 1,
+        "phonenumber": "001-288-609-8518x356"
+    },
+    {
+        "workcode": 38139,
+        "name": "Clifford Smith",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "(908)743-0299x144"
+    },
+    {
+        "workcode": 96807,
+        "name": "Tammie Moore",
+        "jobtitle": "Sales Manager",
+        "male": 0,
+        "phonenumber": "662.328.4963x7300"
+    },
+    {
+        "workcode": 64659,
+        "name": "Justin Campos",
+        "jobtitle": "Assistant",
+        "male": 1,
+        "phonenumber": "758-602-8054x46880"
+    },
+    {
+        "workcode": 12017,
+        "name": "Ashley Lara",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "224.960.7619"
+    },
+    {
+        "workcode": 46939,
+        "name": "Margaret Ross",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 0,
+        "phonenumber": "+1-847-392-4411x4304"
+    },
+    {
+        "workcode": 90020,
+        "name": "Ralph Lee",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "001-887-370-7697x413"
+    },
+    {
+        "workcode": 12895,
+        "name": "Jeffrey Massey",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "001-488-240-4691x41646"
+    },
+    {
+        "workcode": 68895,
+        "name": "Patricia Reyes",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "582.857.8300x2500"
+    },
+    {
+        "workcode": 45140,
+        "name": "Keith Johnson",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "895.873.3896"
+    },
+    {
+        "workcode": 36687,
+        "name": "James Miller",
+        "jobtitle": "Cashier",
+        "male": 1,
+        "phonenumber": "001-305-327-9359"
+    },
+    {
+        "workcode": 65087,
+        "name": "Charles Miller",
+        "jobtitle": "Assistant",
+        "male": 1,
+        "phonenumber": "215.919.0877x9608"
+    },
+    {
+        "workcode": 87939,
+        "name": "Kevin Goodman",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "(530)505-9851"
+    },
+    {
+        "workcode": 84704,
+        "name": "Jessica Gray",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "(678)824-4065x2756"
+    },
+    {
+        "workcode": 90766,
+        "name": "Kevin Johnson",
+        "jobtitle": "Assistant",
+        "male": 1,
+        "phonenumber": "284.710.9457x12550"
+    },
+    {
+        "workcode": 64948,
+        "name": "Lisa Mack",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "+1-826-285-6426x16487"
+    },
+    {
+        "workcode": 10132,
+        "name": "Jon Lopez",
+        "jobtitle": "Assistant",
+        "male": 1,
+        "phonenumber": "001-789-803-5722x27839"
+    },
+    {
+        "workcode": 79689,
+        "name": "Robert Turner",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "(459)276-0236"
+    },
+    {
+        "workcode": 98609,
+        "name": "Gregory Shaffer",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "529-789-4973"
+    },
+    {
+        "workcode": 26739,
+        "name": "Ashley Johnson",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "(418)952-5549x5510"
+    },
+    {
+        "workcode": 72740,
+        "name": "Donald Martinez",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "669.944.0247"
+    },
+    {
+        "workcode": 75929,
+        "name": "Karen Armstrong",
+        "jobtitle": "Warehouse Associate",
+        "male": 0,
+        "phonenumber": "235.579.0750"
+    },
+    {
+        "workcode": 60534,
+        "name": "Maria Johnson",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "656-363-3756x00047"
+    },
+    {
+        "workcode": 60115,
+        "name": "Jeremy Bentley",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "897-557-3456"
+    },
+    {
+        "workcode": 61164,
+        "name": "Elizabeth Hall",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "+1-433-540-3995"
+    },
+    {
+        "workcode": 86481,
+        "name": "Preston Mcdonald",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "+1-611-272-0876x14587"
+    },
+    {
+        "workcode": 12623,
+        "name": "Adam Gaines",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "346.264.2276"
+    },
+    {
+        "workcode": 28081,
+        "name": "Miss Crystal Manning",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "568-965-1680x41679"
+    },
+    {
+        "workcode": 36251,
+        "name": "Nicholas Hutchinson",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "809-540-8726"
+    },
+    {
+        "workcode": 30921,
+        "name": "Mary Morgan",
+        "jobtitle": "Warehouse Associate",
+        "male": 0,
+        "phonenumber": "457.469.5792x76710"
+    },
+    {
+        "workcode": 37304,
+        "name": "Ethan Harris",
+        "jobtitle": "Cashier",
+        "male": 1,
+        "phonenumber": "001-666-889-5781x1648"
+    },
+    {
+        "workcode": 94030,
+        "name": "David Berg",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "223-596-9779"
+    },
+    {
+        "workcode": 74337,
+        "name": "James Fox",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "409.648.8983"
+    },
+    {
+        "workcode": 64415,
+        "name": "Thomas Scott",
+        "jobtitle": "Cashier",
+        "male": 1,
+        "phonenumber": "001-790-910-4532x54496"
+    },
+    {
+        "workcode": 94731,
+        "name": "Wyatt Mills",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "(743)454-0596x679"
+    },
+    {
+        "workcode": 94512,
+        "name": "William Willis",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "+1-459-414-5452x24482"
+    },
+    {
+        "workcode": 43233,
+        "name": "Terry Proctor",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "001-683-224-0773x18181"
+    },
+    {
+        "workcode": 42687,
+        "name": "Monica Jacobs",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "678.854.0203x45686"
+    },
+    {
+        "workcode": 81485,
+        "name": "John Cooley",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "001-999-555-6985"
+    },
+    {
+        "workcode": 93384,
+        "name": "Linda Williams",
+        "jobtitle": "Team Leader",
+        "male": 0,
+        "phonenumber": "469-283-4836"
+    },
+    {
+        "workcode": 50380,
+        "name": "Ashley Ramsey",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "+1-756-328-0184"
+    },
+    {
+        "workcode": 56674,
+        "name": "Matthew Wilson",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "001-511-225-5411"
+    },
+    {
+        "workcode": 69919,
+        "name": "Kyle Campbell",
+        "jobtitle": "Team Leader",
+        "male": 1,
+        "phonenumber": "218.483.7308x290"
+    },
+    {
+        "workcode": 12782,
+        "name": "Anna James",
+        "jobtitle": "Team Leader",
+        "male": 0,
+        "phonenumber": "212-331-3807x622"
+    },
+    {
+        "workcode": 63581,
+        "name": "Jasmine Benson",
+        "jobtitle": "Sales Manager",
+        "male": 0,
+        "phonenumber": "001-512-464-5692x949"
+    },
+    {
+        "workcode": 32207,
+        "name": "Thomas Gomez",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "374.739.7830"
+    },
+    {
+        "workcode": 86585,
+        "name": "Brenda Hodge",
+        "jobtitle": "Cashier",
+        "male": 0,
+        "phonenumber": "+1-904-754-1399"
+    },
+    {
+        "workcode": 21687,
+        "name": "Mike Young",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "2758895125"
+    },
+    {
+        "workcode": 63259,
+        "name": "John Wood",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "7752706658"
+    },
+    {
+        "workcode": 93579,
+        "name": "Jennifer Wright",
+        "jobtitle": "Team Leader",
+        "male": 0,
+        "phonenumber": "001-682-559-7200x791"
+    },
+    {
+        "workcode": 78507,
+        "name": "Steven Miller",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "873-823-7966x094"
+    },
+    {
+        "workcode": 27532,
+        "name": "Wendy Prince",
+        "jobtitle": "Sales Manager",
+        "male": 0,
+        "phonenumber": "6232522566"
+    },
+    {
+        "workcode": 35618,
+        "name": "Brandon Morris",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 1,
+        "phonenumber": "001-996-682-9084x6155"
+    },
+    {
+        "workcode": 81346,
+        "name": "Allison Hickman",
+        "jobtitle": "Inventory Control Specialist",
+        "male": 0,
+        "phonenumber": "5628561803"
+    },
+    {
+        "workcode": 25233,
+        "name": "Drew Martinez",
+        "jobtitle": "Team Leader",
+        "male": 1,
+        "phonenumber": "6988699981"
+    },
+    {
+        "workcode": 69454,
+        "name": "Victor Long",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "(226)565-4147x610"
+    },
+    {
+        "workcode": 85880,
+        "name": "Shirley Fox",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "+1-699-305-7834x60018"
+    },
+    {
+        "workcode": 20693,
+        "name": "Kimberly Jensen",
+        "jobtitle": "Team Leader",
+        "male": 0,
+        "phonenumber": "917.476.6406x0952"
+    },
+    {
+        "workcode": 29942,
+        "name": "Sean Dixon",
+        "jobtitle": "Logistics",
+        "male": 1,
+        "phonenumber": "262-570-4983"
+    },
+    {
+        "workcode": 49259,
+        "name": "Chad Zamora",
+        "jobtitle": "Sales Manager",
+        "male": 1,
+        "phonenumber": "9318849282"
+    },
+    {
+        "workcode": 69879,
+        "name": "Brandon Greene",
+        "jobtitle": "Team Leader",
+        "male": 1,
+        "phonenumber": "295-904-1151x593"
+    },
+    {
+        "workcode": 33704,
+        "name": "Marcus Miranda",
+        "jobtitle": "Warehouse Associate",
+        "male": 1,
+        "phonenumber": "819.529.6784"
+    },
+    {
+        "workcode": 27073,
+        "name": "Emily Rodriguez",
+        "jobtitle": "Assistant",
+        "male": 0,
+        "phonenumber": "318.344.0641x4662"
+    },
+    {
+        "workcode": 48553,
+        "name": "James Morgan",
+        "jobtitle": "Team Leader",
+        "male": 1,
+        "phonenumber": "760-715-0540"
+    }
+]
