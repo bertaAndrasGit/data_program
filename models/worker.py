@@ -13,7 +13,7 @@ class Worker(Model):
     jobtitle: str = field(compare=False)
     male: bool = field(compare=False)
     phonenumber: str = field(compare=False)
-
+    age: int = field(compare=False)
     def __lt__(self, other):
         if not isinstance(other, Worker):
             return NotImplemented
@@ -27,19 +27,21 @@ class Worker(Model):
 
         assert n > 0
         assert min_age >= 18
-
+        assert max_age <= 100
         fake = Faker(locale)
         workers = []
         job_titles = ["Assistant","Cashier","Team Leader","Inventory Control Specialist","Sales Manager","Logistics","Warehouse Associate"]
         for _ in range(n):
             male = random.random() < 0.5
             generator = fake if not unique else fake.unique
+            age = fake.random_int(min_age, max_age)
             workers.append(
                             Worker( fake.unique.random_int(10000,99999),
                                     generator.name_female() if not male else generator.name_male(),
                                     random.choice(job_titles),
                                     male,
-                                    generator.phone_number()
+                                    generator.phone_number(),
+                                    age
                             )
             )
 

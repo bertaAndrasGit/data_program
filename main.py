@@ -8,8 +8,8 @@ def main() -> None:
     db.create()
 
     db.load_up("workers",Worker,
-               ["workcode","name","jobtitle","male","phonenumber"],
-               1, unique=True, min_age=18, max_age=65)
+               ["workcode","name","jobtitle","male","phonenumber","age"],
+               10, unique=True, min_age=18, max_age=65)
 
     db.load_up("items", Item,
                ["itemid", "itemname", "pieces"],

@@ -32,7 +32,8 @@ class Database:
                                                         "name VARCHAR(30) not null, "
                                                         "jobtitle VARCHAR(30), "
                                                         "male BOOLEAN, "
-                                                        "phonenumber VARCHAR(50) )")
+                                                        "phonenumber VARCHAR(50),"
+                                                        "age INTEGER(5))")
         #create items table
         cur.execute("CREATE TABLE IF NOT EXISTS items(itemid VARCHAR(10) PRIMARY KEY NOT NULL,"
                                                         "itemname VARCHAR(50), "
@@ -59,7 +60,7 @@ class Database:
         con, cur = self._connect_database()
 
         workers = Worker.generate(*args,**kwargs)
-        worker_data = [(worker.workcode, worker.name, worker.jobtitle, worker.male, worker.phonenumber) for worker in
+        worker_data = [(worker.workcode, worker.name, worker.jobtitle, worker.male, worker.phonenumber,worker.age) for worker in
                        workers]
         try:
             cur.executemany("INSERT INTO workers VALUES (?, ?, ?, ?, ?)", worker_data)
@@ -72,7 +73,7 @@ class Database:
         con, cur = self._connect_database()
 
         items = Item.generate(*args, **kwargs)
-        item_data = [(item.itemid, item.itemname) for item in items]
+        item_data = [(item.itemid, item.itemname,item.pieces) for item in items]
         try:
             cur.executemany("INSERT INTO items VALUES (?, ?, ?)", item_data)
         except sqlite3.IntegrityError:
