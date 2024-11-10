@@ -20,7 +20,10 @@ class Worker(Model):
         return self.workcode < other.workcode
 
     @staticmethod
-    def generate(n: int = 10, locale: str = "en_US", unique: bool = True, min_age: int = 18, max_age: int = 65) -> list:
+    def generate(n: int = 10,
+                 locale: str = "en_US",
+                 unique: bool = True,
+                 min_age: int = 18, max_age: int = 65) -> list:
 
         assert n > 0
         assert min_age >= 18

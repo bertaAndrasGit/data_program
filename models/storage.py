@@ -25,6 +25,8 @@ class Storage(Model):
 
         assert n > 0
         assert max_price > min_price > 0
+        assert min_stock >= 0
+        assert max_stock >= 100
 
 
         storages = []
